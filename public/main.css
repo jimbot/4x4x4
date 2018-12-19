@@ -12,15 +12,25 @@ footer {
   float: right;
 }
 
+.alt-title {
+  font-size: 2em;
+}
+
 a {
   text-decoration: none;
   color: #303030;
 }
 
 a:hover {
-  color: orange;
+  font-family: 'Bungee Shade', cursive;
 }
 
-.alt-title {
-  font-size: 2em;
+a:hover:before {
+  background-image: url('coin.png');
+  background-size: 20px 20px;
+  margin-right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content:"";
 }
