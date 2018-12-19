@@ -39,6 +39,15 @@ footer {
   float: right;
 }
 
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+a:hover {
+  color: orange;
+}
+
 /* BELOW IS FOR RESPONSIVE DESIGN */
 
 /* the smallest supported screens */

@@ -9,6 +9,10 @@ app.get("/", function(req, res){
   res.render("landing");
 });
 
+app.get("/public-game", function(req, res){
+  res.render("publicGame");
+});
+
 app.listen(3000, function(){
   console.log("listening on localhost: 3000");
 });
