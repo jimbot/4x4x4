@@ -24,6 +24,10 @@ body {
   color: #303030;
 }
 
+.alt-title {
+  font-size: 2em;
+}
+
 #name {
   padding: 20px;
 }
