@@ -15,14 +15,11 @@
   transform: translate(-50%, -50%);
 }
 
-#name {
-  padding: 0px;
-  padding-left: 20px;
-  height:250px;
+.name {
+  padding-top: 20px;
 }
 
 .menu {
-  padding-top: 0px;
   font-size: 1.5em;
 }
 
@@ -81,4 +78,3 @@
   80% { color: #BF55EC; }
   100% { color: #F62459; }
 }
-
