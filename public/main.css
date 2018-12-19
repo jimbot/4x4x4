@@ -22,7 +22,7 @@ a {
   color: #303030;
 }
 
-a.menu-text:hover {
+p:hover {
   font-family: 'Bungee Shade', cursive;
 }
 
