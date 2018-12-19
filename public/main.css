@@ -9,6 +9,7 @@ body {
   border-radius: 1.1em;
   box-shadow: 0 2px 2px 0 rgba(34,36,38,.15);
   text-align: center;
+  height: 525px;
   /* Centers the main container */
   position: absolute;
   left: 50%;
@@ -28,12 +29,12 @@ body {
 }
 
 .menu {
+  padding-top: 25px;
   font-size: 1.5em;
 }
 
 footer {
   font-size: 1em;
-  padding-top: 50px;
   padding-right: 30px;
   float: right;
 }
@@ -51,6 +52,10 @@ footer {
     min-width: 400px;
   }
 
+  footer {
+    padding-top: 150px;
+  }
+
 }
 
 /* tablets */
@@ -61,7 +66,11 @@ footer {
   }
 
   .container {
-    min-width: 600px;
+    min-width: 500px;
+  }
+
+  footer {
+    padding-top: 100px;
   }
 
 }
@@ -74,7 +83,11 @@ footer {
   }
 
   .container {
-    min-width: 600px;
+    min-width: 500px;
+  }
+
+  footer {
+    padding-top: 100px;
   }
 
 }
