@@ -1,3 +1,26 @@
+/* CSS for all other pages */
+
+body {
+  background-color: rgb(246,247,248);
+  font-family: 'Space Mono', monospace;
+}
+
+/* Styles 'back' and 'how to play' */
+footer {
+  font-size: 1em;
+  padding-right: 30px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+a:hover {
+  color: orange;
+}
+
 .alt-title {
   font-size: 2em;
 }

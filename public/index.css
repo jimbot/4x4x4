@@ -1,7 +1,4 @@
-body {
-  background-color: rgb(246,247,248);
-  font-family: 'Space Mono', monospace;
-}
+/* CSS for index.ejs ONLY */
 
 /* Main div in the center of the page */
 .container {
@@ -31,19 +28,4 @@ body {
 .menu {
   padding-top: 25px;
   font-size: 1.5em;
-}
-
-footer {
-  font-size: 1em;
-  padding-right: 30px;
-  float: right;
-}
-
-a {
-  text-decoration: none;
-  color: #303030;
-}
-
-a:hover {
-  color: orange;
 }
