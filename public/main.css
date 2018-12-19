@@ -1,5 +1,6 @@
 body {
   background-color: rgb(246,247,248);
+  font-family: 'Space Mono', monospace;
 }
 
 /* Main div in the center of the page */
@@ -27,12 +28,13 @@ body {
 }
 
 .menu {
-  font-family: 'Space Mono', monospace;
   font-size: 1.5em;
 }
 
 footer {
-  padding: 30px;
+  font-size: 1em;
+  padding-top: 50px;
+  padding-right: 30px;
   float: right;
 }
 
