@@ -25,7 +25,7 @@ a:hover {
   font-family: 'Bungee Shade', cursive;
 }
 
-a:hover:before {
+a.menu-text:hover:before {
   background-image: url('coin.png');
   background-size: 20px 20px;
   margin-right: 5px;
