@@ -27,4 +27,23 @@
   </footer>
 </div>
 
+
+<!-- SCALEDRONE LIVE CHAT -->
+<div>
+<div class="chat-popup" id="myForm">
+    <div class="members-count">-</div>
+    <div class="members-list" style="size:5">-</div>
+    <div class="messages" style="size:5"></div>
+    <form class="message-form" onsubmit="return false;">
+        <input class="message-form__input" placeholder="Type your message.." type="text"/>
+        <button class="button message-form__button chat-btn">Send</button>
+    </form>
+</div>
+</div>
+<div>
+
+<button class="chat-btn open-button" onclick="openForm()">Show Chat</button>
+<button class="chat-btn close-button" onclick="closeForm()">Hide Chat</button>
+</div>
+
 <% include ./partials/footer %>
