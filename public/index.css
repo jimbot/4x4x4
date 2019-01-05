@@ -2,9 +2,9 @@
 
 /* Main div in the center of the page */
 .container {
-  background-color: #fff;
+  background-color: #171717;
   border-radius: 5px;
-  box-shadow: 0 2px 2px 0 rgba(34,36,38,.15);
+  box-shadow: 2px 2px 5px 2px rgba(14,16,18,.55);
   text-align: center;
   height: 75%;
   /* Centers the main container */
