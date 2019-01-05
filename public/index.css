@@ -3,10 +3,10 @@
 /* Main div in the center of the page */
 .container {
   background-color: #fff;
-  border-radius: 1.1em;
+  border-radius: 5px;
   box-shadow: 0 2px 2px 0 rgba(34,36,38,.15);
   text-align: center;
-  height: 525px;
+  height: 75%;
   /* Centers the main container */
   position: absolute;
   left: 50%;
