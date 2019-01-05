@@ -22,7 +22,12 @@ app.get("/how-to-play", function(req, res){
   res.render("howToPlay");
 });
 
-// Server
+// LISTENERS
+// HEROKU
+app.listen(process.env.PORT || 5000, function(){
+  console.log("Heroku server updated.");
+});
+// LOCALHOST
 app.listen(3000, function(){
-  console.log("listening on localhost: 3000");
+  console.log("listening on port 3000");
 });
