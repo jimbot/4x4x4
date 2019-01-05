@@ -14,9 +14,9 @@
   <div class="main-dis">
     <p>Looking for a match</p>
     <p>
-      <span class="loader__dot">.</span>
-      <span class="loader__dot">.</span>
-      <span class="loader__dot">.</span>
+      <span class="loader__dot" style="color:#fff">.</span>
+      <span class="loader__dot" style="color:#fff">.</span>
+      <span class="loader__dot" style="color:#fff">.</span>
     </p>
   </div>
 
@@ -35,15 +35,14 @@
     <div class="members-list" style="size:5">-</div>
     <div class="messages" style="size:5"></div>
     <form class="message-form" onsubmit="return false;">
-        <input class="message-form__input" placeholder="Type your message.." type="text"/>
-        <button class="button message-form__button chat-btn">Send</button>
+        <input class="message-form__input" placeholder="Enter to send..." type="text"/>
     </form>
 </div>
 </div>
 <div>
 
-<button class="chat-btn open-button" onclick="openForm()">Show Chat</button>
-<button class="chat-btn close-button" onclick="closeForm()">Hide Chat</button>
+<button class="chat-btn open-button" onclick="openForm()">Show</button>
+<button class="chat-btn close-button" onclick="closeForm()">Hide</button>
 </div>
 
 <% include ./partials/footer %>

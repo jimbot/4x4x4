@@ -26,7 +26,7 @@
 /* Title of 4x4x4 */
 #title {
   font-family: 'Bungee Shade', cursive;
-  color: #303030;
+  color: #fff;
   -webkit-animation: color-change 10s infinite;
   -moz-animation: color-change 10s infinite;
   -o-animation: color-change 10s infinite;
