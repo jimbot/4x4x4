@@ -15,7 +15,7 @@ app.get("/public-game", function(req, res){
 });
 
 app.get("/private-game", function(req, res){
-  res.render("privateGame");
+  res.render("mainGame");
 });
 
 app.get("/how-to-play", function(req, res){
