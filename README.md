@@ -1,3 +1,7 @@
 # 4x4x4
 
-Figma files for website design: https://www.figma.com/file/dVH1h4zLfy1dmtKlJfNw0zz7/4-3
+
+
+**Links to Original Repositories**
+* https://github.com/seung2613/jesstictactoe
+* https://github.com/songrose/4x4x4-three.js
