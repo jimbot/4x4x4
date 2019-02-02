@@ -9,7 +9,7 @@ var alphas, betas;
 //game mode 2 is medium ai
 //game mode 3 is heuristic ai
 //game mode 4 is hard  ai (extremely slow.
-var gameMode = 0;
+var gameMode = 1;
 var count = 0;
 var aiHard;
 const winningCombo = [
